@@ -11,7 +11,7 @@ public class Driver {
         this.age = age;
     }
 
-    public boolean isAdult(){
+    boolean isAdult(){
         return getAge() >= 18;
     }
 }

@@ -10,4 +10,8 @@ public class Driver {
     public Driver(int age) {
         this.age = age;
     }
+
+    public boolean isAdult(){
+        return getAge() >= 18;
+    }
 }

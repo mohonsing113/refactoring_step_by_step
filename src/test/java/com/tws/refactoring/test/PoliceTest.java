@@ -10,8 +10,8 @@ class PoliceTest {
 
     @Test
     void should_check_driver_adult(){
-        assertTrue(new Police().checkDriver(new Driver(18)));
-        assertFalse(new Police().checkDriver(new Driver(17)));
+        assertTrue(new Police().checkDriverIsAdult(new Driver(18)));
+        assertFalse(new Police().checkDriverIsAdult(new Driver(17)));
     }
 
 }
